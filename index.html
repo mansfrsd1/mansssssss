@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>محمد حسن السيد</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+        
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+    <style>
+        body {
+            direction: rtl;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto 0;
+            background-color: #f3f3f3;
+            font-family: 'Cairo', sans-serif;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .card {
+            background: #ffffff;
+            width: 380px;
+            padding: 5px;
+        }
+
+        .cardprint {
+            width: 370px;
+            background: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .header {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 0px;
+            margin-bottom: -20px;
+            position: relative;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            transform: translateX(16px);
+        }
+
+        .header-title h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #107c41;
+            margin: 0 10px;
+            white-space: nowrap;
+            transform: translateX(8px);
+        }
+
+        .profile-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            margin-top: -5px;
+            /* قلل المسافة من فوق */
+            margin-bottom: 0px;
+            /* خلي مفيش فراغ تحت */
+            flex-direction: row-reverse;
+        }
+
+        .profile-img {
+            width: 155px;
+            height: 157px;
+            object-fit: cover;
+        }
+
+        .qr-img {
+            width: 155px;
+            height: 157px;
+            object-fit: fill;
+            /* يملأ بدون حدود */
+        }
+
+        .title {
+            font-family: "Tajawal", "Segoe UI", sans-serif;
+            text-align: center;
+            color: #107c41;
+            font-weight: 700;
+            font-size: 32px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+
+        }
+
+        .info-all {
+            border: 1.5px solid #ccc;
+            padding: 10px;
+            padding-top: 12px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .info-section {
+            border-top: 1.5px solid #ccc;
+            padding-top: 12px;
+            margin-bottom: 12px;
+        }
+
+        .info-section-header {
+            color: #107c41;
+            font-weight: 900;
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        .info-item {
+            display: flex;
+            justify-content: right;
+            margin-bottom: 8px;
+        }
+
+        .label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #aaa;
+        }
+
+        .value {
+            margin: auto 8px;
+            font-size: 15px;
+            font-weight: 450;
+            color: #222;
+            font-family: 'Cairo', 'Tahoma', sans-serif;
+            transform: translateX(-10px);
+        }
+
+        .header-line {
+            position: absolute;
+            right: 73px;
+            top: 10px;
+            width: 3px;
+            height: 80px;
+            background-color: #dfe7e2;
+            margin: -12px 0px 0px 5px;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="cardprint">
+
+            <!-- الرأس -->
+            <div class="header">
+                <img src="pic/logo.png" alt="شعار الأمانة" class="logo">
+                <div class="header-line"></div>
+                <div class="header-title">
+                    <h1>أمانة منطقة الرياض</h1>
+                </div>
+            </div>
+
+            <!-- الصورة و QR Code -->
+            <div class="profile-section">
+                <img src="pic/6032574574652148117.jpg" alt="صورة الشخص" class="profile-img">
+            </div>
+
+            <!-- عنوان -->
+            <p class="title">شهادة صحية سنوية</p>
+
+            <!-- باقي المعلومات -->
+            <div class="info-all">
+                <div class="info-section-header">بيانات الشهادة:</div>
+                <div class="info-item">
+                    <span class="label">رقم الشهادة</span>
+                    <span class="value" style="display: inline-block; transform: translateX(-13px);">30438-1447</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">تاريخ الاصدار</span>
+                    <span class="value" style="display: inline-block; transform: translateX(-19px);">01/21/1447</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">نهاية الصلاحية</span>
+                    <span class="value" style="display: inline-block; transform: translateX(-8px);">01/21/1448</span>
+                </div>
+
+                <div class="info-section">
+                    <div class="info-section-header">بيانات صاحب الشهادة:</div>
+                    <div class="info-item"><span class="label">الاسم</span><span class="value"
+                            style="display: inline-block; transform: translateX(-54px);">محمد حسن السيد</span>
+                    </div>
+                    <div class="info-item"><span class="label">رقم الهوية</span><span class="value"
+                            style="display: inline-block; transform: translateX(-39px);">2511252690</span>
+                    </div>
+                    <div class="info-item"><span class="label">الجنس</span><span class="value"
+                            style="display: inline-block; transform: translateX(-69px);">ذكر</span></div>
+                    <div class="info-item"><span class="label">الجنسية</span><span class="value"
+                            style="display: inline-block; transform: translateX(-61px);">مصر</span></div>
+                    <div class="info-item"><span class="label">المهنة</span><span class="value"
+                            style="display: inline-block; transform: translateX(-67px);">عامل</span></div>
+                    <div class="info-item"><span class="label">البرنامج التثقيفي</span><span class="value"
+                            style="display: inline-block; transform: translateX(-9px);">سلامة الغذاء</span>
+                    </div>
+                    <div class="info-item"><span class="label">تاريخ انتهاء البرنامج</span><span class="value"
+                            style="display: inline-block; transform: translateX(1px);">
+                            ص 12:00:00 21/01/49</span></div>
+                </div>
+                <div class="info-section">
+                    <div class="info-section-header">بيانات المنشأة:</div>
+
+                    <div class="info-item">
+                        <span class="label">اسم المنشأة</span>
+                        <span class="value"
+                            style="display: inline-block; position: relative; top: 20px; transform: translateX(-22px);">
+                            مجمع عيادات صفا مكة حي العمل
+                        </span>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="label">رقم رخصة المنشأة</span>
+                        <span class="value" </span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
